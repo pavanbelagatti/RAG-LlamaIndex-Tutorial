@@ -1,0 +1,162 @@
+Title,Content,URL
+AWS + SingleStore: Better Together,"In the world of generative AI, that’s Amazon Web Services (AWS) and SingleStore.
+
+As gen AI progresses from novelty to necessity, SingleStore and AWS have jointly committed to accelerating possibilities for gen AI at the enterprise level. SingleStore’s latest AWS gGen AI agreement supports machine learning and generative AI initiatives with tailored resources, funding and shared expertise.
+
+The partnership is highly strategic, given our complementary strengths and vision.   
+
+As the largest and most widely used cloud computing platform, AWS is a natural choice for creating AI agents that function autonomously and can be orchestrated into deterministic workflows with predictable outcomes. Such orchestration is pivotal for ensuring reliability and efficiency in AI-driven processes, and is part of what makes AWS a platform of choice for developers in enterprises.",https://www.singlestore.com/blog/aws-singlestore-better-together/
+SingleStore Is a Fan Favorite on TrustRadius,"How can you tell if a software or technology product is truly loved by its users?
+
+
+Answering that question is the mission of TrustRadius, a platform that helps customers make informed purchasing decisions based on real user experiences, in-depth reviews and peer recommendations. Validation like that can’t be bought; it must be earned.
+
+
+But the seal of approval doesn’t stop there. Each year, TrustRadius scans reviews from real customers to find the best of the best across three pillars: capabilities, value for price and customer relationships. The products that stand out receive a Buyer’s Choice Award — an honor SingleStore is proud to have earned for 2025.
+
+
+While TrustRadius has previously named SingleStore top rated in categories like Relational Databases, Database as a Service, Operational Analytics and In-Memory Databases, 2024 is our first time winning for Vector Databases and our first time winning the Buyer’s Choice Award.
+
+
+The Buyer’s Choice designation indicates strong customer satisfaction and aligns with positive metrics like a high Net Promoter Score (NPS) or low churn rate. The winning products don’t just meet technical requirements — they also provide a great user experience and ROI.
+
+
+What’s more, the honor is based entirely on the voices of the customers. For SingleStore, that means users like Nir Levy, Vice President of R&D, Dev Ops and Products at Zoomd Technologies.
+
+",https://www.singlestore.com/blog/singlestore-trustradius-fan-favorite/
+Unlocking the Power of Data Lakehouses: The Role of Iceberg and Real-Time Analytics,"Enter the data lakehouse, an approach that combines the best features of data lakes and data warehouses to offer faster data processing and more advanced analysis.
+
+
+As a unified platform for managing all types of data, lakehouse architecture has become increasingly important, and Apache Iceberg is a crucial part of the system because it helps manage large datasets more effectively. Companies looking to get the most out of their data find that adding real-time analytics and AI into data lakehouses can make a big impact. In this article, we’ll explore what makes data lakehouses so powerful, the role of Apache Iceberg in their success and how real-time analytics are changing the way we manage data today.
+
+
+Let’s start by understanding the challenges of traditional data storage systems, and how these systems have evolved over time. ",https://www.singlestore.com/blog/unlocking-the-power-of-data-lakehouses/
+SingleStore NPM Package,"To make SingleStore even more accessible for JavaScript and Node.js developers, we're excited to introduce a powerful new tool for developers: the @singlestore/client NPM package. By using this package within your Node.js applications, you can simplify the integration of SingleStore's high-performance capabilities into your JavaScript applications. 
+
+
+Using this package lets you quickly have complete control over your data, making real-time applications more accessible to build and maintain. With a clean and intuitive API, @singlestore/client allows you to effortlessly manage organizations, workspace groups, workspaces, databases, tables, columns, scheduled jobs and other critical components of the SingleStore Management API. This gives developers a more effortless way to leverage the full potential of SingleStore in their projects. To explore the complete list of features, visit the NPM page — which includes a full table of contents for the package's functionality.
+",https://www.singlestore.com/blog/singlestore-npm-package/
+Snowflake + SingleStore: Better Together,"This session highlighted how the integration of Snowflake and SingleStore creates new possibilities for real-time data analysis:
+
+Real-time data processing with SingleStore. Bharat demonstrated how SingleStore’s ability to handle high concurrency transactions with low latency enhances data analysis. By processing data directly as it lands, SingleStore significantly reduces the time required to analyze new information, achieving a 100x speed improvement in some cases.
+Seamless integration with Snowpark Container Services (SPCS). A major highlight was the introduction of SingleStore’s native app within SPCS. Now users can run a SingleStore cluster directly inside Snowflake, enabling real-time data ingestion and analysis without data ever leaving the Snowflake environment. This integration ensures a secure, unified data ecosystem with minimal latency.
+Practical use case. The demo used a ride-sharing simulation to show how SingleStore and Snowflake are better together. By ingesting real-time trip data into SingleStore through Kafka and using Snowflake for historical data analysis, the demo illustrated how companies can gain instant insights — like real-time pricing recommendations — using a combination of current and historical data.
+Enhanced data governance and security. Both speakers emphasized the importance of maintaining data security while integrating these platforms. With Snowflake's powerful governance features and SingleStore’s seamless integration capabilities, enterprises can securely manage data without sacrificing performance.
+Cost efficiency and scalability. The integration enables a zero-ETL workflow, which eliminates the need for extensive data movement and minimizes the use of Snowflake credits. This results in a more cost-effective solution for enterprises looking to process large volumes of data quickly.",https://www.singlestore.com/blog/singlestore-now-2024-snowflake-singlestore-better-together/
+Enhance Your RAG Applications with Knowledge Graph RAG,"Introduction to knowledge graphs
+Knowledge graphs are a powerful tool for organizing and retrieving complex information. They are beneficial in RAG, which can significantly enhance the performance of LLMs. A knowledge graph is a graph structure that represents relationships between entities, which can be documents, concepts, or other data types.
+
+
+By storing information in a graph format, knowledge graphs provide a more intuitive and flexible way to model complex, real-world scenarios. This structured approach allows for a deeper understanding of the connections and context within the data, making it easier to retrieve and utilize relevant information effectively.
+
+
+What is RAG?
+RAG is an approach that leverages external data stored in a database to respond to the user’s query. This enhances the quality of response generation with more context. RAG utilizes both retrieval techniques and generative models to produce contextually relevant responses. RAG improves the performance of LLMs for various natural language processing tasks, including information extraction and sentiment analysis.
+
+
+
+Consider a scenario where you would like to get custom responses from your AI application. First, the organization’s relevant documents are converted into embeddings through an embedding model and stored in a vector database. When a query is sent to the AI application, it gets converted into a vector query embedding. It goes through the vector database to find the most similar object by vector similarity search. This way, your LLM-powered application doesn’t hallucinate since you have already instructed it to ground its responses with the custom data.
+
+
+One simple use case would be the customer support application, where the custom data is fed to the application stored in a vector database. When a user query comes in, the application generates the most appropriate response related to your products or services — not some generic answer.
+
+
+The RAG pipeline involves three critical components: Retrieval, augmentation and generation.
+
+Retrieval. This component helps fetch relevant information from an external knowledge base, like a vector database, for any user query. It is crucial as this is the first step in curating meaningful and contextually correct responses.
+Augmentation. This part involves enhancing and adding more relevant context to the retrieved response for the user query.
+Generation. Lastly, a final output is presented to the user with the help of an LLM. The LLM uses its knowledge and the provided context to provide an apt response to the user’s query.
+These three components are the basis of a RAG pipeline, which helps users get the contextually rich and accurate responses they seek. That is why RAG is helpful in building chatbots, question-answering systems, etc.
+
+
+What are knowledge graphs in RAG?
+Knowledge graphs are structured ways to organize information, showing how entities are connected. They are used to understand relationships and context among different data points effectively. Let’s look at a simple example:
+
+
+Paragraph: “Cows and dogs are good examples of animals. Cows eat herbs, which are plants! Both plants and animals count as living things.”
+
+
+From this unstructured text data, we can extract the following entities: cows, dogs, animals, herbs, plants and living things.
+Relationships:
+
+Cows and dogs are animals
+Cows eat herbs
+Herbs are plants
+Plants and animals are living things
+With this information, we can build the following knowledge graph:
+
+
+
+Knowledge graphs significantly augment RAG systems by providing a structured semantic context that improves data retrieval accuracy and efficiency. They enable the system to understand and utilize the relationships and attributes of entities within the graph, leading to more nuanced and detailed responses. This integration enhances the functionality of RAG systems and applications and ensures the responses remain relevant over time.
+
+
+Building a knowledge graph involves integrating data from various sources to create a structured representation of knowledge. Tools and techniques like RDF, OWL and graph databases are commonly used. Vector databases can also enhance the RAG process by capturing semantic meanings and relationships.
+
+
+LLMs can create knowledge graphs — fundamentally, this is what an LLM is built to do. LLMs are constructed to understand the text and determine the important things in that text. So, it knows what entities are present and what their semantic meanings are. It also knows the relationship between those entities.
+
+
+Once you have a knowledge graph, you can use it to perform RAG. You can do the RAG without even having vectors or vector embeddings. This approach of having knowledge graphs is suitable for handling questions about things like aggregations and multi-hop relationships. We now see a trend of new specialty databases claiming they help store the graph data and do a better RAG. But is that true? What if we tell you that your SQL databases can store and query graphs, too (using the capabilities of JOINS, Recursive CTEs, etc.)? We are going to show exactly that in this article.",https://www.singlestore.com/blog/enhance-your-rag-applications-with-knowledge-graph-rag/
+MariaDB vs. MySQL,"When it comes to database solutions, MariaDB and MySQL stand out as two popular choices for developers and businesses. Although these relational database management systems share a common ancestry, they have evolved to meet different needs and preferences. Understanding the key differences between MariaDB and MySQL is critical for developers, database engineers, and organizations looking to make informed decisions about their data infrastructure.
+This article delves into the performance and feature differences between MariaDB and MySQL. It explores their development paths, compares performance metrics, and highlights the unique features that set them apart. The comparison also sheds light on the ongoing debate of MariaDB vs. MySQL performance, providing a comprehensive look at how these two database systems stack up against each other in various scenarios. Before we dig into the specifics, let's look at the foundational elements of an RDBMS.
+
+Introduction to Relational Database Management Systems (RDBMS)
+Regarding databases and data management, the ability to efficiently store, organize, and access information is the most critical factor on which everything else is based. This is where Relational Database Management Systems (RDBMS) step in as one of the most mature and common paradigms within databases, offering a structured and systematic approach to handling vast volumes of data.
+
+What is a Relational Database Management System?
+At its core, an RDBMS is database software that manages data within a tabular framework, eliminating data redundancy. At a high level, this type of database solution can be thought of as a more complex and organized spreadsheet, where information is neatly categorized into rows and columns. This tabular structure enhances data integrity and facilitates seamless querying and manipulation.
+
+RDBMS solutions leverage the Structured Query Language, more commonly referred to as SQL, a powerful tool for storing, managing, and modifying data. SQL acts as a bridge between users and the database, allowing for executing complex queries and operations with a familiar and easy-to-use syntax.
+
+Within the database market, there are plenty of RDBMS options available. If you've landed on this article, you likely already know that MySQL and MariaDB are two trendy choices within this category, particularly in web application development. These robust platforms have repeatedly proven their mettle, offering a blend of performance, scalability, and user-friendliness. Let's take a deeper look at the history of these two within the RDBMS landscape.
+
+Brief History of MySQL and MariaDB
+MySQL's story began in 1995 when MySQL AB, a Swedish company, first released it. Since then, it has become one of the most widely used open-source RDBMS solutions, powering countless websites and applications worldwide.
+
+In 2009, a new chapter unfolded with the birth of MariaDB. It was forked from MySQL by Michael ""Monty"" Widenius, one of the founders of MySQL AB. This new venture was driven by a vision to create a drop-in replacement for MySQL, incorporating additional features and performance enhancements while remaining true to its open-source roots.
+
+MariaDB continues to evolve, carving its own path in the RDBMS landscape. It is widely recognized for its commitment to community-driven development, emphasis on performance optimization, and compatibility with MySQL, making it an attractive option for those seeking a seamless transition or a feature-rich alternative. Recently, however, MariaDB has encountered some problems with its business finances, resulting in a takeover by private equity.
+
+Ongoing troubles for MariaDB
+As of 2024, MariaDB is facing significant challenges. After a poorly received SPAC IPO in 2022, its stock plunged over 90%, leading to two rounds of layoffs in 2023. Essential products, Xpand and SkySQL, were discontinued, with SkySQL returning as an independent company. Financial troubles have strained its relationship with the MariaDB foundation, while Microsoft has dropped MariaDB as a managed service in favor of MySQL. Most recently, news broke that  K1 Investment Management acquired MariaDB — taking the company back to private after being public.
+
+These uncertainties have led to a significant setback for MariaDB in the database market as it struggles to regain stability after going private. Andy Pavlo, a professor from Carnegie Mellon University, wrote a complete breakdown of the database market in 2023 and touched on MariaDB's catastrophic ups and downs.",https://www.singlestore.com/blog/mariadb-vs-mysql/
+How We Built Our Real-Time Digital Marketing App,"SingleStore’s real-time digital marketing demo combines both OLTP and OLAP workloads, and is a great example of how to build real-time hybrid transactional and analytical processing (HTAP) applications on top of SingleStore.
+
+How We Built Our Real-Time Digital Marketing App
+In this blog, we’ll provide a high-level overview of the app, diving deeper into details  around the key features in SingleStore that make building this type of application possible — with one database.
+
+
+App overview
+This demo simulates a fictional telco with millions of subscribers, serving targeted offers to customers in real time. Targeted advertisements are given based on demographics, geo location, purchase history and much more. SingleStore is evaluating 80 million ad-serving opportunities,  simulating 30,000 to 50,000 ads and offers — all in real time — to cell phones. This digital marketing app sends out notifications of offers based on matching algorithms and complex customer segmentation on real-time and batch data.
+
+
+
+Additionally, there is an operational analytics side of the application showing real-time conversion metrics for advertisers, among other statistics. The following is a picture of one of the dashboards presented in the app.
+
+
+
+Being able to handle both OLTP and OLAP workloads in one database with a variety of different data types is one of SingleStore’s key features. Let’s take a look at how this is done within SingleStore by looking at the key features used to power this application.
+
+
+Schema design
+SingleStore has three different table tables with differing strengths that can be used to optimize performance for HTAP apps.
+
+
+Universal Storage
+SingleStore default table type is its patented Universal Storage table. This combines SingleStore’s three storage layers: memory, disk and object storage. When writing to this table type, data first lands in memory and is immediately available to query. Because data is written to memory first, we achieve extremely high throughput. Data is then flushed to the on-disk columnar store.
+
+
+In this layer, data is typically compressed by 75-80%, allowing for performant scans of the data whilst pulling out one row via sub-segment access and hash indexes. In addition to this, column group indexes can be used to provide additional performance boosts on OLTP queries. These performance characteristics of our Universal Storage table make it performant in both OLTP and OLAP workloads.
+
+",https://www.singlestore.com/blog/how-we-built-our-real-time-digital-marketing-app/
+How to Create a Full-Stack GenAI App Using SingleStore,"In this article, we will guide you through creating this kind of gen AI  app using SingleStore, OpenAI and Next.js. This step-by-step tutorial will help you build and test a micro gen AI app, enabling you to chat with gpt-4o, retrieve random products and render them in custom React components.
+
+
+We will demonstrate the approach we used to build our gen AI eStore app. This app loads the dashboard in under two seconds by executing five parallel queries that simultaneously read over 100 million rows. It includes a text-to-SQL chat experience over the dashboard data, performs a hybrid (vector + exact keyword match) search to help you find the perfect clothing products for your needs and showcases SingleStore's performance analytics.
+
+
+Additionally, it performs multiple function calls, all while maintaining efficient and effective performance. The conversational interface also returns agentic widgets that allow users to purchase and rate a product right from the conversational interface.
+
+
+Let’s get started!",https://www.singlestore.com/blog/create-full-stack-genai-app-singlestore-openai-next-js/
